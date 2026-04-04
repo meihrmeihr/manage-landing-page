@@ -218,7 +218,7 @@ export default function App() {
             </div>
             {/* <!-- Testimonials 3 --> */}
             <div className='hidden flex-col items-center p-6 space-y-6 rounded-lg bg-gray-100 md:flex md:w-1/3'>
-              <img src='https://comforting-dragon-38adda.netlify.app/build/img/avatar-richard.avif' className='w-16 -mt-14' />
+              <img src='https://comforting-dragon-38adda.netlify.app/build/img/illustration-intro.svg' className='w-16 -mt-14' />
               <h5 className='text-lg font-bold'>Richard Watts</h5>
               <p className='text-sm text-gray-500'>
                 "Manage has supercharged our team's workflow. The ability to

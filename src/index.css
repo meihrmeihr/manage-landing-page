@@ -1,23 +1,24 @@
 @import "tailwindcss";
 
 body{
-    background-image: url(/img/bg-tablet-pattern.svg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='814' height='814'%3E%3Crect width='436' height='970' x='774' y='-62' fill='%23FFF0EC' fill-rule='evenodd' rx='218' transform='rotate(45 718.814 -291.157)'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: 800px;
     background-position:90% -25% ;
 }
 #cta{
-    background-image: url(/img/bg-simplify-section-desktop.svg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1439' height='360'%3E%3Cg fill='%23FFF0EC' fill-rule='evenodd' opacity='.071' transform='translate(-171 -373)'%3E%3Crect width='310.431' height='708' x='205' y='410' rx='155.215' transform='scale(1 -1) rotate(-45 -1484.244 0)'/%3E%3Crect width='310.431' height='708' x='1269' y='7' rx='155.215' transform='scale(1 -1) rotate(-45 552.684 0)'/%3E%3C/g%3E%3C/svg%3E");
     background-repeat: no-repeat;  
 }
 @media(max-width:576px){
     body{
-        background-image: url(/img/bg-tablet-pattern.svg);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='814' height='814'%3E%3Crect width='436' height='970' x='774' y='-62' fill='%23FFF0EC' fill-rule='evenodd' rx='218' transform='rotate(45 718.814 -291.157)'/%3E%3C/svg%3E");
         background-size: 500px;
         background-position:50px  50px ;
     }
     #cta{
-        background-image: url(/img/bg-simplify-section-desktop.svg);
+        
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1439' height='360'%3E%3Cg fill='%23FFF0EC' fill-rule='evenodd' opacity='.071' transform='translate(-171 -373)'%3E%3Crect width='310.431' height='708' x='205' y='410' rx='155.215' transform='scale(1 -1) rotate(-45 -1484.244 0)'/%3E%3Crect width='310.431' height='708' x='1269' y='7' rx='155.215' transform='scale(1 -1) rotate(-45 552.684 0)'/%3E%3C/g%3E%3C/svg%3E");
     }
 }
 /* Hamburger Menu */

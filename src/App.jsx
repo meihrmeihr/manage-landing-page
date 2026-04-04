@@ -12,7 +12,7 @@ export default function App() {
         <div className='flex items-center justify-between'>
           {/* <!-- logo --> */}
           <div className='pt-2'>
-            <img src='/img/logo.svg' />
+            <img src='./asset/img/logo.svg' />
           </div>
           {/* <!-- menu items --> */}
           <div className='hidden md:flex space-x-6'>
@@ -88,7 +88,7 @@ export default function App() {
           </div>
           {/* <!-- images --> */}
           <div className='md:w-1/2'>
-            <img src='/img/illustration-intro.svg' />
+            <img src='./asset/img/illustration-intro.svg' />
           </div>
         </div>
       </section>
@@ -198,7 +198,7 @@ export default function App() {
           <div className='flex flex-col mt-24 md:flex-row md:space-x-6'>
             {/* <!-- Testimonials 1 --> */}
             <div className='flex flex-col items-center p-6 space-y-6 rounded-lg bg-gray-100 md:w-1/3'>
-              <img src='/img/avatar-anisha.png' className='w-16 -mt-14' />
+              <img src='./asset/img/avatar-anisha.png' className='w-16 -mt-14' />
               <h5 className='text-lg font-bold'>Anisha Li</h5>
               <p className='text-sm text-gray-500'>
                 "Manage has supercharged our team's workflow. The ability to
@@ -208,7 +208,7 @@ export default function App() {
             </div>
             {/* <!-- Testimonials 2 --> */}
             <div className='hidden flex-col items-center p-6 space-y-6 rounded-lg bg-gray-100 md:flex md:w-1/3'>
-              <img src='/img/avatar-ali.png' className='w-16 -mt-14' />
+              <img src='./asset/img/avatar-ali.png' className='w-16 -mt-14' />
               <h5 className='text-lg font-bold'>Ali Bravo</h5>
               <p className='text-sm text-gray-500'>
                 "We have been able to cancel so many other subscriptions since
@@ -217,7 +217,7 @@ export default function App() {
             </div>
             {/* <!-- Testimonials 3 --> */}
             <div className='hidden flex-col items-center p-6 space-y-6 rounded-lg bg-gray-100 md:flex md:w-1/3'>
-              <img src='/img/avatar-richard.png' className='w-16 -mt-14' />
+              <img src='./asset/img/avatar-richard.png' className='w-16 -mt-14' />
               <h5 className='text-lg font-bold'>Richard Watts</h5>
               <p className='text-sm text-gray-500'>
                 "Manage has supercharged our team's workflow. The ability to
@@ -266,29 +266,29 @@ export default function App() {
             </div>
             {/* <!-- logo --> */}
             <div className='pt-5 md:pr-3'>
-              <img src='/img/logo-white.svg' className='h-8' />
+              <img src='./asset/img/logo-white.svg' className='h-8' />
             </div>
             {/* <!-- Social link container --> */}
             <div className='flex justify-center space-x-4 md:pr-3'>
               {/* <!-- Link 1 --> */}
               <Link to={`#`}>
-                <img src='/img/icon-facebook.svg' className='h-8' />
+                <img src='./asset/img/icon-facebook.svg' className='h-8' />
               </Link>
               {/* <!-- Link 2 --> */}
               <Link to={`#`}>
-                <img src='/img/icon-youtube.svg' className='h-8' />
+                <img src='./asset/img/icon-youtube.svg' className='h-8' />
               </Link>
               {/* <!-- Link 3 --> */}
               <Link to={`#`}>
-                <img src='/img/icon-twitter.svg' className='h-8' />
+                <img src='./asset/img/icon-twitter.svg' className='h-8' />
               </Link>
               {/* <!-- Link 4 --> */}
               <Link to={`#`}>
-                <img src='/img/icon-pinterest.svg' className='h-8' />
+                <img src='./asset/img/icon-pinterest.svg' className='h-8' />
               </Link>
               {/* <!-- Link 5 --> */}
               <Link to={`#`}>
-                <img src='/img/icon-instagram.svg' className='h-8' />
+                <img src='./asset/img/icon-instagram.svg' className='h-8' />
               </Link>
             </div>
           </div>

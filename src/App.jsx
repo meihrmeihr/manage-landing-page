@@ -6,9 +6,8 @@ export default function App() {
     // menu-btn menu
   return (
     <main>
-    
       {/* <!-- Navbar --> */}
-      <nav className='relative container mx-auto p-6'>
+      <nav className='relative container mx-auto p-6' aria-label="Navigation">
         {/* <!-- Flex container --> */}
         <div className='flex items-center justify-between'>
           {/* <!-- logo --> */}
